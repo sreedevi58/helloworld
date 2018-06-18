@@ -69,7 +69,7 @@
 				<configuration>
 					<!-- <tagBase combine.self="override">https://github.com/sreedevi58/helloworld.git/tags/Git-Maven</tagBase> -->
 					<providerImplementations>
-						<svn>jgit</svn>
+						<git>jgit</git>
 					</providerImplementations>
 					<goals>deploy</goals>
 					<tagBase>https://github.com/sreedevi58/helloworld.git/tags/GitDemo</tagBase>
