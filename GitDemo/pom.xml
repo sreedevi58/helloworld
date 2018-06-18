@@ -59,18 +59,18 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<dependencies>
+				<!-- <dependencies>
 					<dependency>
 					  <groupId>org.apache.maven.scm</groupId>
 					  <artifactId>maven-scm-providers-jgit</artifactId>
 					  <version>1.10.0</version>
 					</dependency> 
-				</dependencies>
+				</dependencies> -->
 				<configuration>
 					<!-- <tagBase combine.self="override">https://github.com/sreedevi58/helloworld.git/tags/Git-Maven</tagBase> -->
-					<providerImplementations>
+		<!-- 			<providerImplementations>
 						<git>jgit</git>
-					</providerImplementations>
+					</providerImplementations> -->
 					<goals>deploy</goals>
 					<tagBase>https://github.com/sreedevi58/helloworld.git/tags/GitDemo</tagBase>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
