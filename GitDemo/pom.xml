@@ -91,7 +91,7 @@
 					<tagNameFormat>@{artifactId}-@{version}-Tag</tagNameFormat>
 					<arguments>-Dmaven.javadoc.skip=true</arguments>
 					<arguments>-Dmaven.source.skip=true</arguments>	
-					<pushChanges>false</pushChanges>
+					<pushChanges>true</pushChanges>
 				</configuration>
 			</plugin>
 
