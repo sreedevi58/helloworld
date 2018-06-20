@@ -80,7 +80,6 @@
                     <version>1.9.5</version>
                 </dependency>
             </dependencies>
-
 				<configuration>
 					<!-- <tagBase combine.self="override">https://github.com/sreedevi58/helloworld.git/tags/Git-Maven</tagBase> -->
 		<!-- 			<providerImplementations>
