@@ -9,6 +9,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>		
 		<nexus.id>nexus</nexus.id>
 		<nexus.url>http://lxleapdevv3:8081/repository/maven-releases/</nexus.url>
+		<github.global.server>github</github.global.server>
 	</properties>
 	
 	<scm>
