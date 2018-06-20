@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sampleDemo</groupId>
   <artifactId>GitDemo</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   
 <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -12,8 +12,8 @@
 	</properties>
 	
 	<scm>
-		<connection>scm:git:[fetch=]https://github.com/sreedevi58/helloworld.git/[push=]ssh://git@github.com:sreedevi58/helloworld.git</connection>
-		<developerConnection>scm:git:[fetch=]https://github.com/sreedevi58/helloworld.git/[push=]ssh://git@github.com:sreedevi58/helloworld.git</developerConnection>
+		<connection>scm:git:[fetch=]https://github.com/sreedevi58/helloworld.git/[push=]ssh://sreedevi@github.com:sreedevi58/helloworld.git</connection>
+		<developerConnection>scm:git:[fetch=]https://github.com/sreedevi58/helloworld.git/[push=]ssh://sreedevi@github.com:sreedevi58/helloworld.git</developerConnection>
 	  <tag>GitDemo-0.0.1-Tag</tag>
   </scm>
 	
