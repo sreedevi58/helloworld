@@ -14,6 +14,7 @@
 	
 	<scm>
 		<connection>scm:git:[fetch=]https://github.com/sreedevi58/helloworld.git/[push=]ssh://sreedevi@github.com:sreedevi58/helloworld.git</connection>
+		<url>https://github.com/sreedevi58/helloworld</url>
 		<developerConnection>scm:git:[fetch=]https://github.com/sreedevi58/helloworld.git/[push=]ssh://sreedevi@github.com:sreedevi58/helloworld.git</developerConnection>
 	  <tag>GitDemo-0.0.1-Tag</tag>
   </scm>
@@ -47,7 +48,7 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-scm-plugin</artifactId>
 				<version>1.9.4</version>
@@ -55,7 +56,7 @@
 					<connectionType>connection</connectionType>
 				</configuration>
 			</plugin>
-			
+			 -->
 			
 
 			<plugin>
@@ -75,11 +76,16 @@
               <version>2.2</version>
             </dependency>
 
-                <dependency>
+              <!--   <dependency>
                     <groupId>org.apache.maven.scm</groupId>
                     <artifactId>maven-scm-provider-gitexe</artifactId>
                     <version>1.9.5</version>
-                </dependency>
+                </dependency> -->
+                <dependency>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-scm-plugin</artifactId>
+						<version>1.8.1</version>
+					</dependency>
             </dependencies>
 				<configuration>
 					<!-- <tagBase combine.self="override">https://github.com/sreedevi58/helloworld.git/tags/Git-Maven</tagBase> -->
