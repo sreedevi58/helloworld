@@ -17,7 +17,7 @@
 <scm>
 		<connection>scm:git:https://github.com/sreedevi58/helloworld.git/</connection>
 		<developerConnection>scm:git:https://github.com/sreedevi58/helloworld.git/</developerConnection>
-	  <tag>GitDemo-0.0.1-Tag</tag>
+	  <tag>HEAD</tag>
   </scm> 
 	<build>
 
