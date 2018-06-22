@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sampleDemo</groupId>
   <artifactId>GitDemo</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
 
   
   
@@ -14,13 +14,11 @@
 		<github.global.server>github</github.global.server>
 	</properties>
 	
-	<scm>
-		<connection>scm:git:[fetch=]https://github.com/sreedevi58/helloworld.git/[push=]ssh://sreedevi@github.com:sreedevi58/helloworld.git</connection>
-		<url>https://github.com/sreedevi58/helloworld</url>
-		<developerConnection>scm:git:[fetch=]https://github.com/sreedevi58/helloworld.git/[push=]ssh://sreedevi@github.com:sreedevi58/helloworld.git</developerConnection>
+<scm>
+		<connection>scm:git:https://github.com/sreedevi58/helloworld.git/</connection>
+		<developerConnection>scm:git:https://github.com/sreedevi58/helloworld.git/</developerConnection>
 	  <tag>GitDemo-0.0.1-Tag</tag>
-  </scm>
-	
+  </scm> 
 	<build>
 
 		<defaultGoal>install</defaultGoal>
